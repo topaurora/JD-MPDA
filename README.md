@@ -1,2 +1,15 @@
 # domain-adaptation-for-gas-sensor-drift
-The code is all about a new way in domain adaptation to solve gas sensor drift problems
+To validate the proposed method, we conducted experiments on three datasets.
+The first dataset is from our lab. 
+The second dataset is from Prof. Vergara's group at UCSD. Details can be found in the paper: Chemical gas sensor drift compensation using classifier ensembles. 
+The last dataset is from Prof. Zhang's team at Chongqing University. The last dataset is from Prof. Zhang's group at Chongqing University, and the details can be found in the paper: Anti-drift in E-nose: A subspace projection approach with drift reduction.
+
+The calculation of Gc, Gp and Gt in the program is in the calculation.m.
+The iterative computation of CDD is in interation.m.
+The program reduction.m implements the subspace dimensionality reduction.
+
+Thanks.
+
+Please contact us if there is any problem in your running the programs.
+
+E-mail: chenht22@mails.jlu.edu.cn
