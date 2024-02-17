@@ -1,5 +1,5 @@
-# DA for JD-MPDA
-The above file is the program and dataset for the paper: Joint Distributed Manifold Preserving Domain Adaptation for Drift Compensation in E-nose 
+# JD-MPDA
+# The above file is the program and dataset for the paper: Joint Distributed Manifold Preserving Domain Adaptation for Drift Compensation in E-nose 
 
 The first dataset is from our lab.  The raw data is shown in the short-term drift dataset.
 
