@@ -13,6 +13,4 @@ The program reduction.m implements the subspace dimensionality reduction.
 
 Thanks.
 
-Please contact us if there is any problem in your running the programs.
-
 E-mail: chenht22@mails.jlu.edu.cn
