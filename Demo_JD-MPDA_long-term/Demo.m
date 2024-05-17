@@ -5,8 +5,10 @@
 clc
 clear
 load Drift_dataset
+
 % Use batch 1 as source domain
 XS = Drift_dataset{1,1};
+
 % labels of batch 1
 ys = Drift_dataset{1,2};
 
@@ -124,11 +126,14 @@ for i = 1:9
 
 end
 
-
 pause(0.2);
+
 clc
+
 for j = 1:9
+
     disp(['Source domain: Batch',num2str(1),', Target domain: Batch',num2str(j+1),', ','Accuracy = ' num2str(predict_acc{j,1}*100,'%.2f'),'%']);
+
 end
         
         
