@@ -1,15 +1,23 @@
 %% JD-MPDA in setting 3 Batch Slave1 as target domain
+
+
 clc
 clear
 load data_CQU
+
 XS = master(:,2:7);
-XS = XS';
 ys = master(:,1);
+
+XS = XS';
+
 XT = slave1(:,2:7);
 yt = slave1(:,1);
+
 XT =XT';
 nt = size(XT,2);
+
 % parameter 
+
 d = 6;
 sig = 80;
 yit = 90;
@@ -24,10 +32,12 @@ c = 1;
 g = 0.1667;
 
 %% Model
+
 % Calculate the portion of the iteration that does not change
 [Gc,Gp,Gt] = calculation_MFDA(XS,XT,ys,kc,kp,kt,10);
 
-    CDD = zeros(6,1);
+CDD = zeros(6,1);
+
 for r = 1:100 % the cycle
 
     [XS_new,XT_new,P] = reduction(XS,XT,CDD,d,sig,yit,yib,gam,Gc,Gp,Gt); % get subspace data
